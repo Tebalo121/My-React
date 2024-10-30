@@ -41,7 +41,7 @@ const App = () => {
   return (
     <Router>
       <div className="api">
-        <img src={background} alt= "background" style={{width:'9000px',marginBottom:'20px'}}/>
+        <img src={background} alt= "background" style={{width:'900px',marginBottom:'20px'}}/>
         <div className="app">
           {!isLoggedIn ? (
             <Login onLogin={handleLogin} />
