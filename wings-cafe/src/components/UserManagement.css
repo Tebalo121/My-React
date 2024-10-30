@@ -1,0 +1,48 @@
+/* src/components/UserManagement.css */
+
+.add-button, .edit-button, .delete-button, .logout-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  /* Add Button */
+  .add-button {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Edit Button */
+  .edit-button {
+    background-color: #FFA500; /* Orange */
+  }
+  
+  .edit-button:hover {
+    background-color: #FF8C00;
+  }
+  
+  /* Delete Button */
+  .delete-button {
+    background-color: #f44336; /* Red */
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background-color: #607D8B; /* Blue-grey */
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #455A64;
+  }
